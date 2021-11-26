@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     # tashqi
     'rest_framework',
     'rest_framework.authtoken',
-    # 'dj_rest_auth',
+    'rest_auth',
+    'dj_rest_auth',
 
     # lokal
     'products.apps.ProductsConfig',

@@ -20,8 +20,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include('products.urls')),
     path('api-auth/', include('rest_framework.urls')),
+    # path('api/v1/rest-auth', include('rest_auth.urls')),
     # v1 - version1
-    # path('api/v1/dj-rest-auth/', include('dj_rest_auth.urls')),
+    path('api/v1/dj-rest-auth/', include('dj_rest_auth.urls')),
     # path('api/v1/dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')),
     # path('api/allauth/', include('allauth.urls')),
 
